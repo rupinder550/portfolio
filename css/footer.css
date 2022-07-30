@@ -1,0 +1,36 @@
+.footer_container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    flex-direction: column;
+
+}
+
+.social_icons img
+{
+    width: 60px;
+    margin: 0 20px;
+}
+
+.developer
+{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.developer .name
+{
+    font-size: 40px;
+    color: #4D61FC;
+    font-weight: 600;
+}
+
+.developer .university
+{
+    color: #3F3D56;
+    font-size: 20px;
+    font-weight: 300;
+}

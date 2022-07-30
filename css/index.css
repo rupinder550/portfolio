@@ -1,0 +1,105 @@
+.hero_container
+{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_section
+{
+    font-size: 60px;
+    padding: 0 100px 0 60px;
+    text-align: justify;
+}
+.left_section span
+{
+    color: #4D61FC;
+}
+
+.right_section
+{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.right_section img
+{
+    width: 80%;
+}
+
+.right_section div
+{
+    font-size: 14px;
+    padding-top: 30px;
+    color: #3F3D56;
+}
+
+.container
+{
+    padding: 0 60px 100px 60px;
+    position: relative;
+
+}
+
+.container .header
+{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    font-size: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.container .header::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    background: #4D61FC;
+}
+
+.container .content
+{
+    padding: 0 20%;
+    text-align: justify;
+    font-size: 20px;
+    color: #3F3D56;
+    line-height: 35px;
+}
+.container .button
+{
+    margin: 80px auto 100px auto;
+    padding: 10px 25px;
+    border: 1px solid #4D61FC;
+    width: fit-content;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .button a
+{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #4D61FC;
+}
+
+.container .button img
+{
+    width: 20px;
+    margin-left: 10px;
+}
